@@ -1,0 +1,147 @@
+/****** BASE STYLES *****/
+h1{
+  color: #006600;
+  font-family: 'Roboto Sans',serif;
+  font-size: 60px;
+}
+h2{
+  color: #006600;
+  font-family: 'Roboto Sans',serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+h3{
+  font-family: 'Roboto Sans',serif;
+  font-size: 50px;
+  margin: 30px 0px;
+  padding: 30px;
+}
+h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  margin: 30px 0px;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  text-align: justify;
+}
+footer{
+  background-color: #ffff99;
+  text-align: center;
+  color: ;
+}
+#work{
+    height: 1450px;
+    background-color: #dbdbf0;
+}
+#about{
+    height: 650px;
+    background-color: #40bf9f;
+}
+.contact.social_media{
+    height: 400px;   
+}
+
+/******* GRID *****/
+.full-width{
+    width: 1200px;
+}
+.half-width{
+    width: 600px;
+}
+.row{
+    height: 400px;
+}
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url('../images-icons/hero2.png');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Roboto', serif;
+    font-size: 70px;
+    color: #000033;
+    padding: 50px;
+    text-align: center;
+}
+header h2{
+  font-family:'Roboto Sans', serif;
+  text-align: center;
+  font-size: 50px;
+  color:#000033 ;
+  padding: 50px;
+}
+nav {
+    float: right;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000033;
+    padding-left: 20px;
+}
+/***** WORK *****/
+#work .row{
+    height: 400px;
+    width: 1200px;
+}
+#work img{
+  margin: 15px;
+  height: 300px;
+  float:left;
+  border: 3px solid #000066;
+}
+#work h3{
+  text-align: center;
+}
+#work p{
+  text-align: left;
+
+}
+/***** ABOUT *****/
+#about img{
+  max-width: 100%;
+  height: auto;
+  margin: 80px;
+  border:3px solid #004d00;
+  float: left;
+}
+#about h3{
+  text-align: center;
+  padding-right: 400px;
+}
+#about p{
+  text-align: left
+}
+
+/***** CONTACT *****/
+#contact {
+  text-align: center;
+}
+
+/***** SOCIAL MEDIA *****/
+.social_media img{
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+.social_media ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.social_media li {
+  display: inline-block;
+  margin: 2px;
+  text-align: center;
+}
